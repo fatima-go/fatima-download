@@ -1,6 +1,42 @@
 # Release
 릴리즈 히스토리는 [RELEASE.md](RELEASE.md) 파일을 참고하세요
 
+# LFS 설정
+## Mac OSX
+You may need to brew update to get all the new formulas
+```shell
+brew install git-lfs
+```
+
+## 사용법
+해당 레포로 이동 후 아래와 같이 lfs 를 적용한다
+```shell
+$ git lfs install
+```
+
+파일을 관리하려면 track 을 사용하면 된다.<br>
+먼저 기존에 git add 되어 버전관리되는 파일이 대상이라면 unstaging 을 진행한다
+```shell
+$ git rm --cached my_previous_large_file
+```
+
+다음으로 track 을 더해준다
+```shell
+$ git lfs track my_previous_large_file
+```
+
+다음으로 lfs 트래킹 정보는 .gitattributes 파일을 통해서 관리되므로 반드시 해당 파일을 add 해 주어야 한다
+```shell
+$ git add .gitattributes
+```
+
+마지막으로 다시 add 해 주도록 한다
+```shell
+$ git add my_previous_large_file
+```
+
+모든 정리가 끝났다. 적절한 코멘트와 함께 push를 진행한다
+
 # 운영 패키지 다운로드
 
 | Platform                                                                                                 | URL                                                                                           |
