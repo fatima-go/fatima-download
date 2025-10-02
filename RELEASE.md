@@ -4,7 +4,8 @@
 
 | Date       | Content                                                                                      |
 |------------|----------------------------------------------------------------------------------------------|
-| 2025.09.16 | fatima v1.2.0 반영 (jupiter,juno,saturn,fatima-cmd)               |
+| 2025.10.02 | juno : [[bug] goaway 처리시 panic 발생가능성](https://github.com/fatima-go/juno/issues/18) |
+| 2025.09.16 | fatima v1.2.0 반영 (jupiter,juno,saturn,fatima-cmd)                                            |
 | 2025.07.15 | fatima-cmd : [lccrypto 버그](https://github.com/fatima-go/fatima-cmd/issues/30)                |
 | 2025.07.15 | fatima-cmd : [rodis 에서 프로세스 목록을 이름순으로 출력](https://github.com/fatima-go/fatima-cmd/issues/28) |
 
