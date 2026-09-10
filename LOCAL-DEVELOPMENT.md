@@ -29,6 +29,10 @@ The additional gRPC/TUI operating commands (`rocron`, `rostop`, `rostart`,
 `../fatima-package/docs/grpc-operations.md`. These preserve the legacy HTTP
 handlers and use the existing 9190/9180 listening ports.
 
+For the native Linux arm64 runtime checks and a persistent Colima test package
+reachable by Mac CLI on those same ports, see
+`../fatima-package/docs/linux-arm64-local-test.md`.
+
 Build release archives after committing all source repositories. Verify that
 every repository in `packing-info.json` has `dirty: false`; this makes each
 archive traceable to the completed command commits.
