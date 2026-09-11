@@ -7,6 +7,7 @@
 | 2026.05.17 | fatima-core v1.3.0 전체적으로 반영                               |
 | 2026.06.25 | fatima-core v1.3.3 대비 juno,jupiter,saturn의 shutdown 로직 보완 |
 | 2026.08.31 | roclip에 -b 옵션 지원 (juno, roclip 반영)                        |
+| 2026.09.11 | fatima-core v1.3.6 반영 (v1.3.5 gRPC 배포·운영 API, rolog용 LogLevelControl, rohis용 DeploymentHistory)<br/>fatima-cmd : rolog·rohis gRPC TUI 추가(패키지 선택, 로그레벨 즉시 변경, 배포 이력 조회), roproc·rostart·rostop 화면 개선(상세 이동 제거, 할 일 없는 프로세스 선택 차단, 실행 확인 강조, 삭제 시 프로세스명 입력), rodeploy Upload 화면부터 시작 및 legacy juno 포함 그룹 확인, startro가 PATH가 아닌 app 디렉터리 바이너리 실행, roupdate가 파일을 교체 방식으로 복사(macOS 격리 속성 유지 문제 해결)<br/>juno : 로그레벨·배포 이력 gRPC 제공, 0.0.0.0 대신 실제 IP로 jupiter 등록, 중지된 프로세스 rostop 시 알림 억제 방지, rohis -g/-a 조회 수정, gRPC 배포 후 이력 보관 규칙 적용<br/>jupiter : -p 없이 로컬 패키지 자동 선택(로컬 클라이언트, 단일 패키지) |
 
 ## 2025 ##
 
