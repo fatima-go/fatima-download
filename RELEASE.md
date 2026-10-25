@@ -13,6 +13,7 @@
 | 2026.09.16 | fatima-cmd : rodeploy가 기존 배포 이력과 관계없이 Upload 화면에서 시작하도록 수정, 기존 작업은 백그라운드 조회 후 건수와 `l` 바로가기로 안내하여 화면 이동·업로드 준비 차단 해소 |
 | 2026.10.12 | fatima-cmd, juno : roclip 을 통한 바이너리 업로드 기능 추가 |
 | 2026.10.18 | fatima-cmd : lccrypto 기능 옵션 추가 지원 (파일 처리) |
+| 2026.10.25 | juno : v2 revision 추가 관리, fatima-cmd : gofar 기능 추가(바이너리별 관리기능), lcproc tui 추가적용 |
 
 ## 2025 ##
 
